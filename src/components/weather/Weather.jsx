@@ -156,7 +156,7 @@ const Weather = () => {
                                                 <tbody>
                                                     <tr className="text-right text-md-center">
                                                         <th scope="col">شهر</th>
-                                                        <td className="text-center">{todayWeather.cityName}</td>
+                                                        <td className="text-center">{todayWeather.cityPersianName}</td>
                                                     </tr>
                                                     <tr className="text-right text-md-center">
                                                         <th scope="col">شرایط جوی</th>
