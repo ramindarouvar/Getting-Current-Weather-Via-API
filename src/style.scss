@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "Nazanin";
+    src: url('./fonts/Nazanin.woff');
+}
+
+@import "globalColors";
+
+@mixin transition-a($time){
+    transition: all $time ease-in-out;
+    -webkit-transition: all $time ease-in-out;
+    -moz-transition: all $time ease-in-out; 
+    -o-transition: all $time ease-in-out;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url('../public/images/earth.jpg') ;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+body {
+    font: {
+        family: 'Nazanin';
+        size: 28px;
+    }
+}
+.weather-container{
+    background-color: #0f2965c4 ;
+}
+.weather-table{
+    font-size: 22.5px;
+}
+.temperature-unit{
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
+    padding-left: 3px;
+}
+.min-temp-icon{
+    position: relative;
+    top:5px;
+}
