@@ -29,6 +29,15 @@ body {
         size: 28px;
     }
 }
+.footer-navs{
+    border: none !important;
+    background-color: #001e31;
+    color: rgb(140, 145, 149);
+    border-top: 1px solid $y3Color;
+    .footer-copyright{
+        font-size: 20px;
+    }
+}
 .weather-container{
     background-color: #0f2965c4 ;
 }
