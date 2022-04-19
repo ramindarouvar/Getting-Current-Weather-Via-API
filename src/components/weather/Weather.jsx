@@ -155,36 +155,36 @@ const Weather = () => {
                                             <table className="table text-white weather-table">
                                                 <tbody>
                                                     <tr className="text-right text-md-center">
-                                                        <td className="text-center">{todayWeather.cityName}</td>
                                                         <th scope="col">شهر</th>
+                                                        <td className="text-center">{todayWeather.cityName}</td>
                                                     </tr>
                                                     <tr className="text-right text-md-center">
-                                                        <td className="text-center">{todayWeather.weatherStatus}</td>
                                                         <th scope="col">شرایط جوی</th>
+                                                        <td className="text-center">{todayWeather.weatherStatus}</td>
                                                     </tr>
                                                     <tr className="text-right text-md-center">
+                                                        <th scope="col">دمای کنونی(سانتیگراد) </th>
                                                         <td className="text-center" dir="ltr">
                                                             {todayWeather.tempC}
                                                             <span className="temperature-unit">°C</span>
                                                         </td>
-                                                        <th scope="col">دمای کنونی(سانتیگراد) </th>
                                                     </tr>
                                                     <tr className="text-right text-md-center">
+                                                        <th scope="col">دمای کنونی(فارنهایت) </th>
                                                         <td className="text-center" dir="ltr">
                                                             {todayWeather.tempF}
                                                             <span className="temperature-unit">°F</span>
                                                         </td>
-                                                        <th scope="col">دمای کنونی(فارنهایت) </th>
                                                     </tr>
                                                     <tr className="text-right text-md-center">
-                                                        <td className="text-center" dir="ltr">
-                                                            {todayWeather.isDay ? "روز" : "شب"}
-                                                        </td>
                                                         <th scope="col">
                                                                 روشنایی
                                                                 {" "}
                                                                 <i className="fa fa-long-arrow-down min-temp-icon" aria-hidden="true"></i>
                                                         </th>
+                                                        <td className="text-center" dir="ltr">
+                                                            {todayWeather.isDay ? "روز" : "شب"}
+                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
