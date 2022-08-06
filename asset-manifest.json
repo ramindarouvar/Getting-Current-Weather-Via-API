@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weather-api/static/css/main.5057543e.css",
-    "main.js": "/weather-api/static/js/main.e09718a5.js",
-    "static/js/787.0edc11af.chunk.js": "/weather-api/static/js/787.0edc11af.chunk.js",
-    "static/media/earth.jpg": "/weather-api/static/media/earth.a0c60c6cbeaf6649af8d.jpg",
-    "static/media/Nazanin.woff": "/weather-api/static/media/Nazanin.7280f8679e532a429c83.woff",
-    "index.html": "/weather-api/index.html",
-    "main.5057543e.css.map": "/weather-api/static/css/main.5057543e.css.map",
-    "main.e09718a5.js.map": "/weather-api/static/js/main.e09718a5.js.map",
-    "787.0edc11af.chunk.js.map": "/weather-api/static/js/787.0edc11af.chunk.js.map"
+    "main.css": "/Getting-Current-Weather-Via-API/static/css/main.10a18123.css",
+    "main.js": "/Getting-Current-Weather-Via-API/static/js/main.5b7b1eaf.js",
+    "static/js/787.0edc11af.chunk.js": "/Getting-Current-Weather-Via-API/static/js/787.0edc11af.chunk.js",
+    "static/media/earth.jpg": "/Getting-Current-Weather-Via-API/static/media/earth.a0c60c6cbeaf6649af8d.jpg",
+    "static/media/Nazanin.woff": "/Getting-Current-Weather-Via-API/static/media/Nazanin.7280f8679e532a429c83.woff",
+    "index.html": "/Getting-Current-Weather-Via-API/index.html",
+    "main.10a18123.css.map": "/Getting-Current-Weather-Via-API/static/css/main.10a18123.css.map",
+    "main.5b7b1eaf.js.map": "/Getting-Current-Weather-Via-API/static/js/main.5b7b1eaf.js.map",
+    "787.0edc11af.chunk.js.map": "/Getting-Current-Weather-Via-API/static/js/787.0edc11af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5057543e.css",
-    "static/js/main.e09718a5.js"
+    "static/css/main.10a18123.css",
+    "static/js/main.5b7b1eaf.js"
   ]
 }
