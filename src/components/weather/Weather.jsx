@@ -108,8 +108,8 @@ const Weather = () => {
                         {citySelected ? 
                                 (loading ?
                                     <div className="col-12 text-center py-3" style={{height: "262px"}}>
-                                        <div className="mt-1 mb-2">
-                                            <img src="./images/spinners/loadingSpinner.gif" width="70px" alt="loading"/> 
+                                        <div className="mt-1 mb-2 spinner-border text-warning d-block mx-auto p-4" role="status">
+                                            <span class="sr-only">Loading...</span>
                                         </div>
                                         <span className="h3" style={{color: "rgb(191, 208, 255)"}}>در حال دریافت اطلاعات ...</span>
                                     </div>
